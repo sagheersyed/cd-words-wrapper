@@ -15,16 +15,22 @@ Add an HTML element with the class dynamic-title to your webpage. Inside it, inc
 
 html
  
-<div class="dynamic-title cd-headline clip is-full-width">
-  <span>I Am&nbsp;</span>
-  <span class="cd-words-wrapper">
-      <b class="is-visible">&nbsp;<span class="gold-title">Sagheer Syed.</span></b>
-      <b> a&nbsp;<span class="gold-title">Graphic Designer.</span></b>
-      <b> a&nbsp;<span class="gold-title">UI Designer.</span></b>
-      <b>an&nbsp;<span class="gold-title">Artist.</span></b>
-      <b>a&nbsp;<span class="gold-title">Humanitarian.</span></b>
-  </span>
-</div>
+<html>
+
+ <body>
+     <div class="dynamic-title cd-headline clip is-full-width">
+      <span>I Am&nbsp;</span>
+      <span class="cd-words-wrapper">
+          <b class="is-visible">&nbsp;<span class="gold-title">Sagheer Syed.</span></b>
+          <b> a&nbsp;<span class="gold-title">Graphic Designer.</span></b>
+          <b> a&nbsp;<span class="gold-title">UI Designer.</span></b>
+          <b>an&nbsp;<span class="gold-title">Artist.</span></b>
+          <b>a&nbsp;<span class="gold-title">Humanitarian.</span></b>
+      </span>
+   </div>
+ </body>
+ 
+</html>
 
 Initialize the Plugin:
 Initialize the plugin by calling .textAnimation() on the $('.dynamic-title') jQuery selector.
