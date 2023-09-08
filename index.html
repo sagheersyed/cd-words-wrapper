@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="./cd-word-wrapper-plugin.js"></script>
+    <link rel="stylesheet" href="./cd-word-wrapper.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="dynamic-title cd-headline clip is-full-width">
+        <span>I Am&nbsp;</span>
+        <span class="cd-words-wrapper">
+            <b class="is-visible">&nbsp;<span class="gold-title">Sagheer Syed.</span></b>
+            <b> a&nbsp;<span class="gold-title">Graphic Designer.</span></b>
+            <b> a&nbsp;<span class="gold-title">UI Designer.</span></b>
+            <b>an&nbsp;<span class="gold-title">Artist.</span></b>
+            <b>a&nbsp;<span class="gold-title">Humanitarian.</span></b>
+        </span>
+    </div>
+    <!-- scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script defer>
+        $(document).ready(function () {
+            $('.dynamic-title').textAnimation({
+                animationDelay: 2500,
+            });
+        });
+    </script>
+</body>
+
+</html>
